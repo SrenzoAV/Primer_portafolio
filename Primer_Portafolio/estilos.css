@@ -5,7 +5,6 @@
   height: 40vw;
   border-radius: 50%;
   overflow: hidden;
-  display: flex;
   justify-content: center;
   margin: auto;
 }
@@ -73,6 +72,20 @@ section {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+#sobre_mi{
+ justify-content: center;
+}
+
+
+#sobre_mi img{
+  width: 50vw;
+  height: 60vw;
+  justify-content: center;
+  margin: auto;
+
+}
+
+
 section h2{
   padding-bottom: 1rem;
 }
@@ -81,6 +94,9 @@ section p{
 padding-bottom: 1rem;
 }
 
+
+
+ 
 
 
 footer {
