@@ -17,13 +17,15 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'ARIAL', sans-serif;
   font-weight: 400;
   overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
+  color: #ffffff;
+
 }
 
 ul {

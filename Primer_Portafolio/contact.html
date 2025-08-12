@@ -9,20 +9,27 @@
   <link rel="stylesheet" href="./assets/css/BIGstyle.css">
 </head>
 
-  <body>
+<body id="body">
 
-      <header class="header">
-        <section class="header__container">
-          <figure id="icon">
-          
-          <img src="./assets/img/Sebastian.jpg" alt="Imagen propia.">
-       
-       </figure>
-        <h1>Sebastian Aguirre Valencia</h1>
-        <p>Estudiante, soñador y futuro profesional </p>
-        <nav>
+  <header>
+    <section class="header__container">
+
+
+      
+      <nav>
+        <i class="header__logo header__open">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-layout-2" width="32" height="32"
+            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M4 4m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path>
+            <path d="M4 13m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path>
+            <path d="M14 4m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path>
+            <path d="M14 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path>
+          </svg>
+        </i>
         <ul class="header__menu">
-          <li class="header_close">
+          <li class="header__close">
             <i class="header__logo">
               <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="48" height="48"
                 viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
@@ -33,17 +40,18 @@
               </svg>
             </i>
           </li>
-          <li class="header__link--active"><a href="sobremi">Sobre mi</a></li>
-          <li class="header__link"><a href="Proyextos">Mis proyectos</a></li>
-          <li class="header__link"><a href="Contacto">Contactame</a></li>
+          <li ><a href="#Sobre_mi" class="header__link  header__link--active">Sobre mi</a></li>
+          <li ><a href="#Proyectos" class="header__link">Mis proyectos</a></li>
+          <li ><a href="#Contacto" class="header__link">Contactame</a></li>
         </ul>
       </nav>
-      </header>
-   
-    <main>
+    </section>
+  </header>
 
-      <section class="container banner">
-     
+  <main>
+    
+    <section class="container banner">
+
       <figure class="banner__image">
         <img src="./assets/images/banner.webp" alt="Banner Nature Image">
       </figure>
@@ -60,26 +68,32 @@
 
 
     <section id="sobre_mi" class="seccion">
-        <h2>Sobre mi</h2>
-        <p>Soy Sebastián, estudiante apasionado por el desarrollo de software y la inteligencia artificial.
-          Me gusta crear soluciones tecnológicas con propósito.</p>
-        <img src="./assets/img/SobreMi.png" alt="Ilustrada">
+      <h2>Sobre mi</h2>      
+      <div class="banner__container-img">
+        <img src="./assets/img/Sebastian.jpg" alt="Imagen propia.">
+      </div>
+      <div class="banner__container-text">
+      <h1>Sebastian Aguirre Valencia</h1>
+      <p>Estudiante, soñador y futuro profesional </p>
+      <p>Soy Sebastián, estudiante apasionado por el desarrollo de software y la inteligencia artificial.
+        Me gusta crear soluciones tecnológicas con propósito.</p>
+      <img src="" alt="Ilustrada">
 
-      </section>
-      <section id="Proyectos" class="seccion">
-        <h2>Mis Proyectos</h2>
-        <p>Aquí iré contando quién soy, mis intereses, y qué quiero lograr.</p>
-      </section>
-      <section id="Contacto" class="seccion">
-        <h2>Contactame</h2>
-        <p>Puedes escribirme a ...</p>
-      </section>
-    </main>
-    <footer>
-      <p> &copy; 2025 Sebastian Aguirre Valencia. Todos los derechos reservados.</p>
-    </footer>
-    <a href="#saludo">ir al saludo</a>
-  </body>
+    </section>
+    <section id="Proyectos" class="seccion">
+      <h2>Mis Proyectos</h2>
+      <p>Aquí iré contando quién soy, mis intereses, y qué quiero lograr.</p>
+    </section>
+    <section id="Contacto" class="seccion">
+      <h2>Contactame</h2>
+      <p>Puedes escribirme a ...</p>
+    </section>
+  </main>
+  <footer>
+    <p> &copy; 2025 Sebastian Aguirre Valencia. Todos los derechos reservados.</p>
+  </footer>
+  <a href="#saludo">ir al saludo</a>
+</body>
 </div>
 
 </html>

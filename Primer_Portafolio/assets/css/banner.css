@@ -1,0 +1,48 @@
+.banner__container-img{
+height: 40vw;
+width: 40vw;
+border-radius: 25%;
+overflow: hidden;
+display: flex;
+margin: auto;
+margin-bottom: 1rem;
+justify-content: center;
+}
+
+.banner__container-img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner__container-text{
+  font-family: Arial, Helvetica, monospace;
+
+  text-align: left;
+
+}
+
+.banner__container-text h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-family: Arial;
+
+}
+
+.banner__container-text p{
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+#sobre_mi{
+  padding: 20px;
+display: flex;
+}
+.sobre_mi h1{
+  display: block;
+
+  flex-direction: column;
+}

@@ -1,16 +1,77 @@
-.header__container{
-  background-color: #34495E;
-overflow: hidden;
+#body{
+  background-color: #000000;
+  color: #ffffff;
+  padding-left: 10vw;
+  padding-right: 10vw;
+
 }
 
+.header__container{
+  display: block;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ff7300;
+  border-radius: 20px;
 
-.header__container img{
+}
+
+.header__menu{
   display: flex;
-  margin: auto;
-  
-  justify-content: center;/* si también quieres centrar verticalmente */
-  height: 60vh;
-  width: 60vh;
-  border-radius: 50%;
+  justify-content: center;
 
+  gap: 20px;
+
+}
+
+.header__link {
+  color: #646464;
+  transition: 0.5s;
+  font-weight: 800;
+  font-size: 1.5rem;
+  border-bottom: 3px solid #ffffff;
+}
+
+.header__link:hover, .header__link--active {
+  color: #fff1f1;
+  border-bottom: 2px solid #ffffff;
+}
+
+.header__open, .header__close {
+  display: none;
+}
+
+@media screen and (width <= 720px) {
+  .header__menu {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    height: 100vh;
+    background-color: #FFF;
+    width: 80%;
+    box-shadow: -1px 0px 20px 3px rgba(0,0,0,0.25);
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 80px;
+    transition: 0.3s right;
+  }
+
+  .header__menu--visible {
+    right: 40%;
+
+  }
+
+  .header__link {
+    font-size: 25px;
+  }
+
+  .header__open, .header__close {
+    display: block;
+  }
+}
+
+@keyframes enhance-header {
+  to {
+    box-shadow: 0px -2px 20px 1px rgba(0,0,0,0.25);
+  }
 }
