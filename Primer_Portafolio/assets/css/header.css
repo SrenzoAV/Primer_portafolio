@@ -1,0 +1,16 @@
+.header__container{
+  background-color: #34495E;
+overflow: hidden;
+}
+
+
+.header__container img{
+  display: flex;
+  margin: auto;
+  
+  justify-content: center;/* si también quieres centrar verticalmente */
+  height: 60vh;
+  width: 60vh;
+  border-radius: 50%;
+
+}

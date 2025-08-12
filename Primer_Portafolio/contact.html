@@ -5,44 +5,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Contac </title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="./estilos.css">
-</head>
 
-<div id="body">
+  <link rel="stylesheet" href="./assets/css/BIGstyle.css">
+</head>
 
   <body>
 
-    <div id="encabezado">
-
-      <header>
-        <div id="Imagen">
-          <img src="./Sebastian.jpg" alt="Imagen propia.">
-        </div>
+      <header class="header">
+        <section class="header__container">
+          <figure id="icon">
+          
+          <img src="./assets/img/Sebastian.jpg" alt="Imagen propia.">
+       
+       </figure>
         <h1>Sebastian Aguirre Valencia</h1>
         <p>Estudiante, soñador y futuro profesional </p>
-      </header>
-    </div>
-
-    <div id="indice">
-
-
-      <nav>
-        <ul>
-          <li><a href="sobremi">Sobre mi</a></li>
-          <li><a href="Proyextos">Mis proyectos</a></li>
-          <li><a href="Contacto">Contactame</a></li>
+        <nav>
+        <ul class="header__menu">
+          <li class="header_close">
+            <i class="header__logo">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="48" height="48"
+                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M18 6l-12 12"></path>
+                <path d="M6 6l12 12"></path>
+              </svg>
+            </i>
+          </li>
+          <li class="header__link--active"><a href="sobremi">Sobre mi</a></li>
+          <li class="header__link"><a href="Proyextos">Mis proyectos</a></li>
+          <li class="header__link"><a href="Contacto">Contactame</a></li>
         </ul>
       </nav>
-
-    </div>
-
+      </header>
+   
     <main>
-      <section id="sobre_mi" class="seccion">
+
+      <section class="container banner">
+     
+      <figure class="banner__image">
+        <img src="./assets/images/banner.webp" alt="Banner Nature Image">
+      </figure>
+      <h2 class="banner__subtitle">
+        Vamos a ver cómo es eso de que los animales están consumiendo a la naturaleza.
+      </h2>
+      <div class="banner__container-button">
+        <button type="button" class="banner__button">
+          <a href="#implications">Comenzar</a>
+        </button>
+      </div>
+    </section>
+
+
+
+    <section id="sobre_mi" class="seccion">
         <h2>Sobre mi</h2>
         <p>Soy Sebastián, estudiante apasionado por el desarrollo de software y la inteligencia artificial.
           Me gusta crear soluciones tecnológicas con propósito.</p>
-        <img src="./SobreMi.png" alt="Ilustrada">
+        <img src="./assets/img/SobreMi.png" alt="Ilustrada">
 
       </section>
       <section id="Proyectos" class="seccion">
