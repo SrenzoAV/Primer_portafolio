@@ -1,3 +1,13 @@
+.banner__subtitle{
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  font-family: monospace;
+  padding: 20px;
+
+}
+
+
 .banner__container-img{
 height: 40vw;
 width: 40vw;
@@ -39,10 +49,11 @@ justify-content: center;
 
 #sobre_mi{
   padding: 20px;
-display: flex;
+display: ;
 }
 .sobre_mi h1{
   display: block;
+  
 
   flex-direction: column;
 }
